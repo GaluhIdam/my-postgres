@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  postgres:
+    image: postgres:13
+    container_name: my-postgres
+    environment:
+      POSTGRES_USER: saynotodream
+      POSTGRES_PASSWORD: 0p3n464606
+      POSTGRES_DB: mydb
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+volumes:
+  postgres-data:
