@@ -3,10 +3,10 @@ version: "3.8"
 services:
   postgres:
     image: postgres:latest
-    container_name: my-postgres
+    container_name: postgres
     environment:
       POSTGRES_USER: saynotodream
-      POSTGRES_PASSWORD: 0p3n464606
+      POSTGRES_PASSWORD: 0p3nw0rld
       POSTGRES_DB: mydb
     ports:
       - "5432:5432"
