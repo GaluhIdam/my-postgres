@@ -7,11 +7,8 @@ services:
     environment:
       POSTGRES_USER: saynotodream
       POSTGRES_PASSWORD: 0p3nw0rld
-      POSTGRES_DB: mydb
+      POSTGRES_DB: postgres
     ports:
       - "5432:5432"
     volumes:
       - postgres-data:/var/lib/postgresql/data
-
-volumes:
-  postgres-data:
