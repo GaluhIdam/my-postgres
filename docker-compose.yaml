@@ -18,4 +18,5 @@ services:
 networks:
   network-postgres:
     driver: bridge
+    name: network-postgres
      
