@@ -13,7 +13,4 @@ services:
     volumes:
       - ./data:/var/lib/postgres
     networks:
-      - default_network
-networks:
-  default_network:
-   driver: bridge
+      - brigde
